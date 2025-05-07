@@ -1,3 +1,3 @@
-fun main() {
-    println("Hello, Umar!")
+fun main(){
+println("Hello, Umar!")
 }
