@@ -1,12 +1,9 @@
-I'll help you with each of these Kotlin tasks. Since I can't directly create screenshots, I'll provide the code solutions along with explanations that you can implement in Android Studio or IntelliJ IDEA.
+Task 1: Hello World
 
-## Task 1: Hello World
-```kotlin
 fun main() {
-    println("Hello, Jane!")
-}
-```
-**Explanation**: This simple program prints "Hello, Jane!" to the console.
+    println("Hello, Umar!")
+
+Explanation: This simple program prints "Hello, Jane!" to the console.
 
 ## Task 2: User Input
 ```kotlin
