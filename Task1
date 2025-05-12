@@ -1,1 +1,4 @@
-h
+Task 1: Hello World
+
+fun main() {
+    println("Hello, Umar!")
