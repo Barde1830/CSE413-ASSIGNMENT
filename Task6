@@ -1,1 +1,9 @@
-r
+fun main() {
+
+val names = arrayOf("Alice", "Bob", "Charlie", "Diana", "Eve")
+
+    for (name in names) {
+
+        println("Hello, $name")
+    }
+}
