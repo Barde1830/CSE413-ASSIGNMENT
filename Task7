@@ -1,1 +1,14 @@
-3
+class Car(val brand: String, val model: String, val year: Int) {
+
+    fun displayDetails() {
+        println("Car Details: $brand $model, Year: $year")
+    }
+}
+
+fun main() {
+    val car1 = Car("Toyota", "Corolla", 2020)
+    val car2 = Car("Tesla", "Model 3", 2022)
+
+    car1.displayDetails()
+    car2.displayDetails()
+}
