@@ -1,1 +1,17 @@
-q
+fun main() {
+
+    val studentScores = mapOf(
+        "Alice" to 85,
+        "Bob" to 65,
+        "Charlie" to 72,
+        "Diana" to 90,
+        "Eve" to 68
+    )
+
+    println("Students with scores above 70:")
+    studentScores.filter { it.value > 70 }
+.forEach {
+
+        println("${it.key}: ${it.value}")
+    }
+}
