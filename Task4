@@ -1,1 +1,19 @@
-3
+fun main() {
+
+    println("Numbers 1 to 10:")
+
+    for (i in 1..10) {
+
+        print("$i ")
+    }
+
+    println("\nEven numbers 1 to 20:")
+
+    for (i in 1..20) {
+
+        if (i % 2 == 0) {
+
+            print("$i ")
+        }
+    }
+}
